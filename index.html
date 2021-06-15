@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="start">
         <div class="header-section">
             <div class="header-frame">
                 <h1>Brent Smith</h1>
@@ -28,18 +28,44 @@
                 <img id="propic" src="./img/headshots/face1.jpg" alt="" />
             </div>
         </div>
-        <!-- <div class="links">
-            <a href="mailto:scpoolman@aol.com">email</a>
-        </div> -->
         <div class="cta">
-            <a class="nav-link" href="" target="_blank"> <button class="cta-resume">Gallery</button>
-            </a>
+            <button class="cta-resume" onClick="document.getElementById('gallery').scrollIntoView({ block: 'start',  behavior: 'smooth' });">Gallery</button>
+            <a class="nav-link" href="tel:8036069487"><button class="cta-call">Call 8036069487</button></a>
             <a class="nav-link" href="mailto:scpoolman@aol.com" target="_blank"> <button class="cta-email">Email</button>
             </a>
         </div>
+    </div>
+    <div class="" id="gallery" style="margin-top: 100px;">
+        <div class="row">
+            <div class="column">
+                <img src="/img/pool.jpg" style="width:100%">
+                <img src="/img/pool1.jpg" style="width:100%">
+                <img src="/img/pool2.jpg" style="width:100%">
 
-        <div class="commits">
+            </div>
+            <div class="column">
+                <img src="/img/pool5.jpg" style="width:100%">
+                <img src="/img/pool6.jpg" style="width:100%">
+                <img src="/img/pool7.jpg" style="width:100%">
+                <img src="/img/pool8.jpg" style="width:100%">
+                <img src="/img/pool4.jpg" style="width:100%">
+                <img src="/img/pool3.jpg" style="width:100%">
 
+            </div>
+            <div class="column">
+                <img src="/img/pool9.jpg" style="width:100%">
+                <img src="/img/pool10.jpg" style="width:100%">
+                <img src="/img/pool11.jpg" style="width:100%">
+                <img src="/img/pool12.jpg" style="width:100%">
+
+            </div>
+            <div class="column">
+                <img src="/img/pool13.jpg" style="width:100%">
+                <img src="/img/pool14.jpg" style="width:100%">
+                <img src="/img/pool15.jpg" style="width:100%">
+                <img src="/img/pool16.jpg" style="width:100%">
+                <img src="/img/pool17.jpg" style="width:100%">
+            </div>
         </div>
     </div>
 </body>
